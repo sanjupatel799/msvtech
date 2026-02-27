@@ -1,0 +1,41 @@
+.p3{
+    text-align: center;
+    color: black;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.middle-line {
+  width: 250px;
+  height: 2px;
+  background: #b0b8c1;
+  margin: 15px auto;
+}
+.fot{
+    font-family: 'inter',sans-serif;
+    font-weight: 800;
+}
+.fot1{
+    padding-left: 60px;
+    
+}
+.testimonial-carousel .owl-item img {
+    width: 90px;
+    height: 90px;
+}
+
+/* Carousel */
+.testimonial-item {
+  max-width: 600px;
+  margin: auto;
+}
+
+.carousel-indicators button {
+  background-color: #f0ad4e;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #0d6efd;
+}

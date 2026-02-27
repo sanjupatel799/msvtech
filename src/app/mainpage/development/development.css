@@ -1,0 +1,126 @@
+.s1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #152440;
+    color: white;
+   flex: 0 0 auto;
+    width: 100%;      
+    text-align: center;
+}
+.p9{
+    text-align: center;
+    color: black;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.middle-line {
+  width: 250px;
+  height: 2px;
+  background: #b0b8c1;
+  margin: 15px auto;
+}
+
+/* icons code */
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #25566C; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.circle-icon i {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+
+
+
+
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@media (min-width: 768px) {
+    .py-md-3 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+}
+
+.bg-primary {
+    background-color: #1c4a68 !important;
+}
+
+
+/* formcss */
+.large-input {
+  width: 80%;
+  height: 60px;          
+  font-size: 20px;       
+  padding: 10px 15px;    
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
+.form-container {
+  width:90%;
+}
+
+.form-control {
+  width: 100%;
+  height: 55px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  background: #e5e5e5;
+  box-sizing: border-box;
+}
+
+.label {
+  color: #c9c9c9;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Fix file input height */
+.file-input {
+  padding: 12px 20px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.submit-btn{
+    width:100%;
+    padding:14px;
+    background:#2c5673;
+    color:#fff;
+    font-size:16px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.submit-btn:hover{
+    background:#76c0f0;
+}

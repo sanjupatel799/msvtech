@@ -1,0 +1,112 @@
+.g1{
+    text-align: center;
+    color: black;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.middle-line {
+  width: 250px;
+  height: 2px;
+  background: #b0b8c1;
+  margin: 15px auto;
+}
+/* cards css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.blog-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  width: 380px;
+  background: #f0f0f0;
+  overflow: hidden;
+  transition: 0.4s ease;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+}
+
+/* IMAGE */
+.image-wrapper {
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: 0.6s ease;
+}
+
+/* Fade + Zoom Animation */
+.blog-card:hover img {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+/* CONTENT */
+.blog-content {
+  display: flex;
+}
+
+.date-box {
+  background: #214e6b;
+  color: white;
+  padding: 25px 15px;
+  text-align: center;
+  min-width: 110px;
+}
+
+.date-box .day {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.date-box .month {
+  display: block;
+  margin: 6px 0;
+  letter-spacing: 2px;
+}
+
+.date-box .year {
+  font-size: 14px;
+}
+
+.content-box {
+  padding: 25px;
+}
+
+.meta {
+  color: #6c7a89;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.meta span {
+  margin-right: 12px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #1c2b39;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .blog-card {
+    width: 100%;
+  }
+}

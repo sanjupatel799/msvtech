@@ -1,0 +1,63 @@
+.p9{
+    text-align: center;
+    color: black;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.middle-line {
+  width: 250px;
+  height: 2px;
+  background: #b0b8c1;
+  margin: 15px auto;
+}
+
+/* icons code */
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #25566C; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.circle-icon i {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+
+
+
+
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@media (min-width: 768px) {
+    .py-md-3 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+}
+.btn {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+.bg-primary {
+    background-color: #1c4a68 !important;
+}

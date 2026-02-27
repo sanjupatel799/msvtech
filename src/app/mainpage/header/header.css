@@ -1,0 +1,50 @@
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(220, 203, 203);   
+    height: 50px;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+
+
+/* Right Contact Section */
+.right-contact {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #04355f, #04355f);
+    color: white;
+    height: 100%;
+    padding: 0 30px;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    width: fit-content;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.contact-item i {
+    margin-right: 8px;
+}
+
+.s1{
+    padding-left:55px;
+    padding-top: 15px;
+    /* text-transform: uppercase; */
+    color: rgb(80, 165, 244);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+}
+.s2{
+    color: blue;
+}
+.s3:hover{
+    color: blue;
+}

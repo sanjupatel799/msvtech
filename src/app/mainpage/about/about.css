@@ -1,0 +1,27 @@
+.s1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #152440;
+    color: white;
+   flex: 0 0 auto;
+    width: 100%;      
+    text-align: center;
+}
+.fox{
+
+    font-family: 'inter',sans-serif;
+    font-weight: 800;
+
+}
+.p3{
+    text-align: center;
+    color: black;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.middle-line {
+  width: 250px;
+  height: 2px;
+  background: #b0b8c1;
+  margin: 15px auto;
+}
