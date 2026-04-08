@@ -11,6 +11,7 @@ import { Career } from './mainpage/career/career';
 import { Blog } from './mainpage/blog/blog';
 import { Contact } from './mainpage/contact/contact';
 import { Footer } from './mainpage/footer/footer';
+import { Corousel } from './mainpage/home/corousel/corousel';
 
 
 export const routes: Routes = [
@@ -24,6 +25,7 @@ export const routes: Routes = [
     {path:'career',component:Career},
     {path:'blog',component:Blog},
     {path:'contact',component:Contact},
+    {path:'corousel',component:Corousel},
     {path:'footer',component:Footer},
     {path:'**',redirectTo:"full"}
 ];
